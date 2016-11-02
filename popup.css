@@ -1,0 +1,68 @@
+.freshbox { 
+	
+	display: none;
+	
+	/* standard decorations */
+	/* border: 8px solid #666; */
+	
+	/* for modern browsers use semi-transparent color on the border. nice! */
+	/* border: 8px solid rgba(0, 0, 0, 0.2); */
+	
+	/* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	/* semi-transparent background color */
+	background-color: rgba(0, 0, 0, 0.2);
+	/* for ie9 to rewrite the rewrite semi-transparent background color */
+	background-color: transparent\9;
+    padding: 8px;	
+	zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#30000000, endColorstr=#30000000);
+}
+
+.freshbox .box-frame {
+	padding: 10px;
+	border:1px solid #3B5998;
+	background-color: #fff;
+}
+.freshbox .box-title  {}
+.freshbox .box-title h2 {
+	margin: -11px;
+	margin-bottom: 0px;
+	color: #333;
+	background-color:#6D84B4;
+	padding: 5px 10px;
+    border:1px solid #3B5998;
+    border-style: solid;
+    border-width: 1px;
+	font-size: 15px;
+	 background-color:#6D84B4;
+}
+.freshbox .box-main {
+	padding: 50px 30px 40px;
+	overflow: hidden;
+}
+.freshbox .box-content {
+	width:400px;
+	height:200px;
+	line-height:200px;
+	font-size:25px;
+	text-align:center
+}
+.freshbox .btn-box-close {
+    background: url("images/btn-close.png") no-repeat scroll 0 0 transparent;
+    height: 18px;
+	width: 18px;
+    position: absolute;
+	top: 16px;
+    right: 16px;
+    text-decoration: none;
+    text-indent: -999em;	
+}
+.freshbox .btn-box-close:hover {
+	background: url("images/btn-close-hover.png") no-repeat;
+}
+
+
